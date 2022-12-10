@@ -4,7 +4,8 @@
 
 .page {
   display: block;
-  width: 1280px;
+  width: 100%;
+  max-width: 1280px;
   margin: 0 auto;
   font-family: "Inter", "Arial", sans-serif;
   color: white;
