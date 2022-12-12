@@ -21,11 +21,13 @@
     width: 90.625%;
   }
 }
+
 @media screen and (max-width: 768px) {
   .footer {
     width: 94%;
   }
 }
+
 @media screen and (min-width: 600px) and (max-width: 720px) {
   .footer {
     width: 90%;
@@ -42,6 +44,7 @@
     gap: 20px;
   }
 }
+
 @media screen and (min-width: 480px) and (max-width: 599px) {
   .footer {
     width: 90%;
@@ -58,6 +61,7 @@
     gap: 20px;
   }
 }
+
 @media screen and (min-width: 426px) and (max-width: 479px) {
   .footer {
     width: 88%;
@@ -68,12 +72,11 @@
     -webkit-box-align: start;
     -ms-flex-align: start;
     align-items: flex-start;
-    -webkit-box-align: left;
-    -ms-flex-align: left;
     align-items: left;
     gap: 48px;
   }
 }
+
 @media screen and (max-width: 425px) {
   .footer {
     width: 90%;
@@ -84,8 +87,6 @@
     -webkit-box-align: start;
     -ms-flex-align: start;
     align-items: flex-start;
-    -webkit-box-align: left;
-    -ms-flex-align: left;
     align-items: left;
     gap: 48px;
   }
