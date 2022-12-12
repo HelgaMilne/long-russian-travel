@@ -50,6 +50,11 @@
   background-image: url(../../../images/photo-grid-item_12.jpg);
 }
 
+@media screen and (min-width: 1025px) and (max-width: 1279px) {
+  .photo-grid__item {
+    min-width: 230px;
+  }
+}
 @media screen and (min-width: 480px) and (max-width: 599px) {
   .photo-grid__item {
     min-width: 210px;
