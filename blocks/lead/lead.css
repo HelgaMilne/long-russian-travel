@@ -1,0 +1,51 @@
+.lead {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 77%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0 auto 92px;
+  text-align: center;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .lead {
+    width: 90.625%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .lead {
+    width: 100%;
+    margin: 0 auto 88px;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 720px) {
+  .lead {
+    width: 100%;
+    margin: 0 auto 88px;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 599px) {
+  .lead {
+    width: 100%;
+    margin: 0 auto 88px;
+  }
+}
+@media screen and (min-width: 426px) and (max-width: 479px) {
+  .lead {
+    width: 100%;
+    margin: 0 auto 64px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .lead {
+    width: 100%;
+    margin: 0 auto 64px;
+  }
+}

@@ -1,0 +1,18 @@
+.place__website {
+  -ms-flex-item-align: end;
+  -ms-grid-row-align: end;
+  align-self: end;
+}
+
+@media screen and (min-width: 480px) and (max-width: 599px) {
+  .place__website {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 426px) and (max-width: 479px) {
+}
+@media screen and (max-width: 425px) {
+  .place__website {
+    width: 90%;
+  }
+}

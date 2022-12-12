@@ -1,0 +1,33 @@
+.place__paragraph {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.63;
+  /* or 29px */
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .place__paragraph {
+    font-size: 16px;
+    gap: 25px;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 720px) {
+}
+@media screen and (min-width: 480px) and (max-width: 599px) {
+  .place__paragraph {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 426px) and (max-width: 479px) {
+  .place__paragraph {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .place__paragraph {
+    font-size: 16px;
+  }
+}
