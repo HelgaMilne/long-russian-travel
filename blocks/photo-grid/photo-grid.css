@@ -20,8 +20,7 @@
 
 @media screen and (min-width: 1025px) and (max-width: 1279px) {
   .photo-grid {
-    width: 94%;
-    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+     grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
   }
 }
 
