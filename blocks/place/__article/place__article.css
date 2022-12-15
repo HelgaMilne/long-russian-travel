@@ -12,19 +12,20 @@
   gap: 26px;
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .place__article {
     gap: 27px;
   }
 }
-@media screen and (min-width: 426px) and (max-width: 479px) {
+
+@media screen and (max-width: 768px) {
   .place__article {
     gap: 25px;
   }
 }
+
 @media screen and (max-width: 425px) {
   .place__article {
     width: 90%;
-    gap: 25px;
   }
 }

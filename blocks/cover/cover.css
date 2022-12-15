@@ -5,34 +5,20 @@
   margin: 0 auto 92px;
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .cover {
     width: 100%;
   }
 }
+
 @media screen and (max-width: 768px) {
   .cover {
-    width: 100%;
-    margin: 0 auto 88px;
+    margin-bottom: 88px;
   }
 }
-@media screen and (min-width: 600px) and (max-width: 720px) {
-}
-@media screen and (min-width: 480px) and (max-width: 599px) {
+
+@media screen and (max-width: 480px) {
   .cover {
-    width: 100%;
-    margin: 0 auto 88px;
-  }
-}
-@media screen and (min-width: 426px) and (max-width: 479px) {
-  .cover {
-    width: 100%;
-    margin: 0 auto 64px;
-  }
-}
-@media screen and (max-width: 425px) {
-  .cover {
-    width: 100%;
-    margin: 0 auto 64px;
+    margin-bottom: 64px;
   }
 }

@@ -5,8 +5,13 @@
   line-height: 1.17;
   /* identical to box height, or 117% */
   color: white;
+  text-decoration-line: none;
   -ms-flex-item-align: end;
   align-self: flex-end;
+}
+
+.header__lang-link:hover {
+  opacity: 0.8;
 }
 
 @media screen and (min-width: 426px) and (max-width: 479px) {

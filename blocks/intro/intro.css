@@ -11,37 +11,27 @@
   text-align: left;
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .intro {
     width: 90.625%;
   }
 }
+
 @media screen and (max-width: 768px) {
   .intro {
-    width: 94%;
-    margin: 0 auto 88px;
+    width: 93.75%;
+    margin-bottom: 88px;
   }
 }
-@media screen and (min-width: 600px) and (max-width: 720px) {
+
+@media screen and (max-width: 600px) {
   .intro {
     width: 90%;
   }
 }
-@media screen and (min-width: 480px) and (max-width: 599px) {
+
+@media screen and (max-width: 480px) {
   .intro {
-    width: 90%;
-    margin: 0 auto 88px;
-  }
-}
-@media screen and (min-width: 426px) and (max-width: 479px) {
-  .intro {
-    width: 88%;
-    margin: 0 auto 64px;
-  }
-}
-@media screen and (max-width: 425px) {
-  .intro {
-    width: 90%;
-    margin: 0 auto 64px;
+    margin-bottom: 64px;
   }
 }
