@@ -36,30 +36,10 @@
     grid-row-gap: 32px;
     grid-column-gap: 0;
   }
-
-  .place>*:nth-child(1) {
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;
-  }
-
-  .place>*:nth-child(2) {
-    -ms-grid-row: 3;
-    -ms-grid-column: 1;
-  }
-
-  .place>*:nth-child(3) {
-    -ms-grid-row: 5;
-    -ms-grid-column: 1;
-  }
-
-  .place>*:nth-child(4) {
-    -ms-grid-row: 7;
-    -ms-grid-column: 1;
-  }
 }
 
-@media screen and (max-width: 320px) {
-  .place {
-    justify-items: center;
+  @media screen and (max-width: 320px) {
+    .place {
+      justify-items: center;
+    }
   }
-}
