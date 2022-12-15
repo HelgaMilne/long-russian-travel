@@ -1,12 +1,12 @@
 .place {
   display: grid;
+  display: -ms-grid;
   grid-template-rows: repeat(2, auto);
   grid-template-columns: repeat(2, 1fr);
   justify-content: stretch;
   align-content: stretch;
   align-items: start;
   gap: 48px 40px;
-  display: -ms-grid;
   -ms-grid-rows: auto 48px auto;
   -ms-grid-columns: 1fr 40px 1fr;
   -ms-flex-line-pack: stretch;
