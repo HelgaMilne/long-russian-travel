@@ -7,11 +7,17 @@
   -ms-flex-flow: column nowrap;
   flex-flow: column nowrap;
   justify-items: center;
-  width: 77%;
+  width: 76.875%;
   margin: 0 auto 92px;
   gap: 80px;
   padding: 0;
   list-style: none;
+}
+
+@media screen and (max-width: 1260px) {
+  .places {
+    width: 90.625%;
+  }
 }
 
 @media screen and (max-width: 1024px) {

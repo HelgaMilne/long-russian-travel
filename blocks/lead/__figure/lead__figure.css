@@ -1,7 +1,29 @@
 .lead__figure {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column nowrap;
     flex-flow: column nowrap;
     text-align: left;
     margin: 0;
     padding: 0;
+}
+
+.lead__figure::before {
+    content: " ";
+    position: absolute;
+    top: 14.5%;
+    left: 2.5%;
+    width: 95%;
+    height: 42.5%;
+    background-image: url(../../../images/map.svg);
+    background-size: contain;
+    background-position: center top;
+    background-repeat: no-repeat;
+    z-index: 2;
 }
