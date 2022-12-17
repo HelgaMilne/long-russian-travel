@@ -22,7 +22,7 @@
     width: 95%;
     height: 42.5%;
     background-image: url(../../../images/map.svg);
-    background-size: contain;
+    background-size: 100% auto;
     background-position: center top;
     background-repeat: no-repeat;
     z-index: 2;
