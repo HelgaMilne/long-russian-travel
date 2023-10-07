@@ -18,4 +18,4 @@
 
 #### Ссылка на сайт проекта
 
-https://olgamilne.github.io/long-russian-travel/
+https://helgamilne.github.io/long-russian-travel/
