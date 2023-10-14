@@ -20,6 +20,11 @@
 * БЭМ,
 * git
 
+###  Статус проекта:
+<img src="https://github.com/HelgaMilne/HelgaMilne/blob/main/src/images/passed_code_review.svg" alt="badge" width="160px">
+
+-----
+
 #### Ссылка на сайт проекта
 
 https://helgamilne.github.io/long-russian-travel/
